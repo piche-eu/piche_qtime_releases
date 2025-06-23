@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+        <title>auto_updater_example</title>
+        <description>Most recent updates to auto_updater_example</description>
+        <language>en</language>
+        <item>
+            <title>Version 1.0.5</title>
+            <!-- For the macOS item, it is recommended to add 'sparkle:version' and
+            'sparkle:shortVersionString' to the item node, rather than as part of the enclosure. -->
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
+            <pubDate>Mon, 16 Jun 2025 15:14:00 +0800</pubDate>
+            <enclosure url="https://github.com/piche-eu/piche_qtime_releases/releases/download/1.0.5%2B5/piche_qtime-1.0.5+5-macos.zip"
+                sparkle:edSignature="hkcQcfOQQUUQc/4TuskKwYAc8CWLqnE5ttOEaQ297ccZpIN6Jcc24uOkQ733DYjzWrEOCKHv75hDmB5VyuVrBA=="
+                sparkle:os="macos"
+                length="26610712"
+                type="application/octet-stream" />
+        </item>
+        <item>
+            <title>Version 1.0.5</title>
+            <sparkle:releaseNotesLink>
+                https://your_domain/your_path/release_notes.html
+            </sparkle:releaseNotesLink>
+            <pubDate>Mon, 16 Jun 2025 15:14:00 +0800</pubDate>
+            <enclosure url="https://github.com/piche-eu/piche_qtime_releases/releases/download/1.0.5%2B5/QTimeInstaller.exe"
+      sparkle:dsaSignature="MDwCHCvjBEtUydwqrXb0oak9kjRua9JBPbpPcFkte8cCHH8LUKqQyPtYepRm9MDbbjA+FanRV9/UPLojdiM=" 
+                       sparkle:version="1.0.5+5"
+                       sparkle:os="windows"
+                       length="0"
+                       type="application/octet-stream" />
+        </item>
+    </channel>
+</rss>
