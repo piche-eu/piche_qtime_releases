@@ -124,3 +124,10 @@ Note: variable "length" in resulting output could be = 0, it is not a problem.
 # Update appcast
 
 After receiving signature for a build, open appcast.xml and either add item or update existing one with your data - that includes version, signature, length and others. Commit to a separate branch for testing purposes and verify, that app downloads and install new updates. 
+
+# Additional information
+
+- https://pub.dev/packages/auto_updater
+- https://fastforge.dev/getting-started
+- https://sparkle-project.org/documentation/
+- https://github.com/vslavik/winsparkle/wiki
