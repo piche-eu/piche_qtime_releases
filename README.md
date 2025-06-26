@@ -2,8 +2,8 @@
 
 The public repository, responsible for distribution artifacts for auto-update purposes to users.
 
-# Installation 
-To install Fastforge globally
+# Step 1 - Installation 
+To create a release package, you will need to use Fastforge. To install it, run this command
 
 ```
 dart pub global activate fastforge
@@ -15,14 +15,17 @@ For Windows, also install openssl:
 choco install openssl
 ```
 
-# Generating Keys
+# Step 2 - Generating Keys
+To let our updater know that a downloaded update is not corrupted and came from us (instead of a malicious attacker), we recommend signing each release with a signature.
 
 ## MacOS
 
-Run the following command:
+To create a key signature, run the following command:
 ```
 dart run auto_updater:generate_keys
 ```
+
+It will generate a private key and save it in your login Keychain on your Mac. You don’t need to do anything with it, but do keep it safe.
 
 Output:
 
@@ -34,43 +37,20 @@ updates. It should appear like this:
     <key>SUPublicEDKey</key>
     <string>pfIShU4dEXqPd5ObYNfDBiQWcXozk7estwzTnF9BamQ=</string>
 ```
-Copy the results of the command into Info.plist as is. 
+It will print your public key to embed into applications. Copy that key (it’s a base64-encoded string) and insert it into Info.plist.
 
 ## Windows 
+To ensure smooth development, request the generated keys from @oleksiikunakov-flutter and put them both at `windows\runner\resources` folder (private and public)
 
-Run the following command:
-```
-dart run auto_updater:generate_keys
-```
+# Step 3 - Version check
+Before proceeding with build generation, ensure:
 
-Output: 
+- pubspec.yaml contains correct version.
+- if building for Windows - installer_ff.iss contains correct version.
 
-```
-Generated two files:
-dsa_priv.pem: your private key. Keep it secret and don't share it!
-dsa_pub.pem: public counterpart to include in youe app.
-BACK UP YOUR PRIVATE KEY AND KEEP IT SAFE!
-If you lose it, your users will be unable to upgrade!
-```
+# Step 4 - Build release package
+You do not need to run `fvm flutter build` or preemptively clean the project - by default Fastforge does it automatically. 
 
-Save those keys to a `windows/resources` and ensure that private one never gets published to main repository.
-
-Check if the windows/Runner.rc looks like this:
-
-```
-/////////////////////////////////////////////////////////////////////////////
-//
-// WinSparkle
-//
-
-// And verify signature using DSA public key:
-DSAPub      "resources\\dsa_pub.pem"
-```
-
-# Windows - Before proceeding
-In the main repository, open windows/packaging/exe/installer_ff.iss and update `#define MyAppVersion` to a correct version
-
-# Usage
 To run Fastforge for all releases and jobs:
 
 ```
@@ -91,9 +71,8 @@ fastforge release --name <NAME> --job <JOB_NAME>
 
 To prevent `fvm flutter clean` before building release, add `--[no-]skip-clean` at the end of command.
 
-After creating release artifacts (.exe or .zip respectively) - publish them in "Release" section of this repository with appropriate tag and version.
-
-# Get signature
+# Step 5 - Get signature
+To make sure, that updater understands, when newly posted build is an update, we need to get signature of that build. Here is how to do this for both platforms. We will need this signature later.
 
 ## MacOS
 To get signature of newly created build, use this command: 
@@ -121,9 +100,25 @@ sparkle:dsaSignature="MEUCIQCVbVzVID7H3aUzAY5znpi+ySZKznkukV8whlMFzKh66AIgREUGOm
 
 Note: variable "length" in resulting output could be = 0, it is not a problem.
 
-# Update appcast
+# Step 6 - Publish
 
-After receiving signature for a build, open appcast.xml and either add item or update existing one with your data - that includes version, signature, length and others. Commit to a separate branch for testing purposes and verify, that app downloads and install new updates. 
+After creating release artifacts (.exe or .zip respectively) - publish them in "Release" section of this repository with appropriate tag and version.
+If there is no release with your's build number - create one yourself. If there is already - add your build to binaries of this tag.
+
+# Step 7 - Update appcast
+
+auto_updater uses appcasts to get information about software updates. An appcast is an RSS feed with some extra information for updating purposes
+
+After receiving signature for a build, open appcast.xml and either add item or update existing one with your data - that includes:
+
+- version,
+- signature,
+- length
+- additional information, such as release notes, minimum versions, etc.
+
+# Step 8 - Testing out
+
+Use an older version of your app, or if you don’t have one yet, make one seem older by editing pubspec.yaml and running debug to test out the functionality of the updater.
 
 # Additional information
 
