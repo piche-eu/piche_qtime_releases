@@ -9,11 +9,13 @@ To create a release package, you will need to use Fastforge. To install it, run 
 dart pub global activate fastforge
 ```
 
-For Windows, also install openssl:
+For Windows, also install openssl using choco [(you need administrator privileges for this)](https://www.howtogeek.com/194041/how-to-open-the-command-prompt-as-administrator-in-windows-10/):
 
 ```
 choco install openssl
 ```
+
+If choco not installed, [here is the instruction](https://chocolatey.org/install).
 
 # Step 2 - Generating Keys
 To let our updater know that a downloaded update is not corrupted and came from us (instead of a malicious attacker), we recommend signing each release with a signature.
