@@ -51,7 +51,8 @@ Before proceeding with build generation, ensure:
 - if building for Windows - installer_ff.iss contains correct version.
 
 # Step 4 - Build release package
-You do not need to run `fvm flutter build` or preemptively clean the project - by default Fastforge does it automatically. 
+You do not need to run `fvm flutter build` or preemptively clean the project - by default Fastforge does it automatically.
+The targets and specifics of the release build are described inside of `/distribute_options.yaml` within jobs descriptions.
 
 To run Fastforge for all releases and jobs:
 
