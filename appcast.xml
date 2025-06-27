@@ -14,9 +14,9 @@
             <!-- Here update url pointing to a new release, edSignature and length from MacOS output -->
             <enclosure
                 url="https://github.com/piche-eu/piche_qtime_releases/releases/download/1.0.5%2B5/piche_qtime-1.0.5+5-macos.zip"
-                sparkle:edSignature="hkcQcfOQQUUQc/4TuskKwYAc8CWLqnE5ttOEaQ297ccZpIN6Jcc24uOkQ733DYjzWrEOCKHv75hDmB5VyuVrBA=="
+                sparkle:edSignature="iHN2zHKuegXDbmOchCDTBB4bo/4+zWgNgUZpJJSAEITjJ+ESW4L3nSttJvbnNfV3L1mnXb2/RUh5gAzbJ2sZBA=="
                 sparkle:os="macos"
-                length="26610712"
+                length="26644643"
                 type="application/octet-stream" />
         </item>
         <item>
