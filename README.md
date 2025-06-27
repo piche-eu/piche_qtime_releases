@@ -42,7 +42,7 @@ updates. It should appear like this:
 It will print your public key to embed into applications. Copy that key (it’s a base64-encoded string) and insert it into Info.plist.
 
 ## Windows 
-To ensure smooth development, request the generated keys from @oleksiikunakov-flutter and put them both at `windows\runner\resources` folder (private and public)
+To ensure smooth development, request the generated keys from @oleksiikunakov-flutter and put them both at the root folder of project (private and public)
 
 # Step 3 - Version check
 Before proceeding with build generation, ensure:
