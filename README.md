@@ -9,13 +9,23 @@ To create a release package, you will need to use Fastforge. To install it, run 
 dart pub global activate fastforge
 ```
 
-For Windows, also install openssl using choco [(you need administrator privileges for this)](https://www.howtogeek.com/194041/how-to-open-the-command-prompt-as-administrator-in-windows-10/):
+For Windows, install openssl using choco [(you need administrator privileges for this)](https://www.howtogeek.com/194041/how-to-open-the-command-prompt-as-administrator-in-windows-10/):
 
 ```
 choco install openssl
 ```
 
+and Inno for exe creation:
+```
+winget install --id JRSoftware.InnoSetup -e -s winget -i
+```
+
 If choco not installed, [here is the instruction](https://chocolatey.org/install).
+
+For MacOS, install p7zip for zip creation:
+```
+brew install p7zip
+```
 
 # Step 2 - Generating Keys
 To let our updater know that a downloaded update is not corrupted and came from us (instead of a malicious attacker), we recommend signing each release with a signature.
@@ -42,7 +52,21 @@ updates. It should appear like this:
 It will print your public key to embed into applications. Copy that key (it’s a base64-encoded string) and insert it into Info.plist.
 
 ## Windows 
-To ensure smooth development, request the generated keys from @oleksiikunakov-flutter and put them both at the root folder of project (private and public)
+To create a key signature, run the following command:
+```
+dart run auto_updater:generate_keys
+```
+
+Output:
+```
+Generated two files:
+dsa_priv.pem: your private key. Keep it secret and don't share it!
+dsa_pub.pem: public counterpart to include in youe app.
+BACK UP YOUR PRIVATE KEY AND KEEP IT SAFE!
+If you lose it, your users will be unable to upgrade!
+```
+
+Copy those two keys, which generated inside of your project and save them securely.
 
 # Step 3 - Version check
 Before proceeding with build generation, ensure:
