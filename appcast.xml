@@ -5,13 +5,13 @@
         <description>Most recent updates to QTime</description>
         <language>en</language>
         <item>
-            <title>Version 1.0.5+6</title>
+            <title>Version 1.0.7+8</title>
             <!-- sparkle:version is for build number, where sparkle:shortVersionString is
             responsible for build name -->
-            <sparkle:version>6</sparkle:version>
-            <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
             <description><![CDATA[
-                <h1>Release Notes - 1.0.6+7</h1>
+                <h1>Release Notes - 1.0.7+8</h1>
                 <ul>
                     <li>Added contacts page with sorting and filtering</li>
                     <li>Miltiple improvements to Windows version, focusing on stability</li>
@@ -21,10 +21,10 @@
             <pubDate>Mon, 16 Jun 2025 15:14:00 +0800</pubDate>
             <!-- Here update url pointing to a new release, edSignature and length from MacOS output -->
             <enclosure
-                url="https://github.com/piche-eu/piche_qtime_releases/releases/download/1.0.5%2B5/piche_qtime-1.0.5+5-macos.zip"
-                sparkle:edSignature="iHN2zHKuegXDbmOchCDTBB4bo/4+zWgNgUZpJJSAEITjJ+ESW4L3nSttJvbnNfV3L1mnXb2/RUh5gAzbJ2sZBA=="
+                url="https://github.com/piche-eu/piche_qtime_releases/releases/download/1.0.7%2B8/QTime_1.0.7+8.zip"
+                sparkle:edSignature="iYMAHVaE8Q8xB76lnHxlC57UxOZWJjrvZqOXasAfXy08xUCHhnxtqJ1l7hRN6tf5wRUVpn0kII5NLu23gkp3CA=="
                 sparkle:os="macos"
-                length="26644643"
+                length="27652267"
                 type="application/octet-stream" />
         </item>
         <item>
