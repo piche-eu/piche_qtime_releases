@@ -28,21 +28,21 @@
                 type="application/octet-stream" />
         </item>
         <item>
-            <title>Version 1.0.6+7</title>
+            <title>Version 1.0.7+8</title>
             <description><![CDATA[
-                <h1>Release Notes - 1.0.6+7</h1>
+                <h1>Release Notes - 1.0.7+8</h1>
                 <ul>
                     <li>Added contacts page with sorting and filtering</li>
                     <li>Miltiple improvements to Windows version, focusing on stability</li>
                     <li>Auto update functionality for all platforms</li>
                 </ul>
             ]]></description>
-            <pubDate>Mon, 2 Jul 2025 00:00:00</pubDate>
+            <pubDate>Mon, 10 Jul 2025 00:00:00</pubDate>
             <!-- Here update url pointing to a new release, full version, dsaSignature and length from Windows output -->
             <enclosure
                 url="https://github.com/piche-eu/piche_qtime_releases/releases/download/1.0.5%2B6/QTimeInstaller.exe"
-                sparkle:dsaSignature="MDwCHF+h791qw0LYw+3h1TOyca0z9xq4Wx7m93akjKACHCXVGdUyNgEj9Gw+A21vUIQWCE4Q8c9XWD86OYM="
-                sparkle:version="1.0.6+7"
+                sparkle:dsaSignature="MDwCHDr2lOxUJSlrLhT6nan+gJ/QoZf0hO7f++juqkwCHEtgOJYhQl7XjUQYHnDgGM1EZZVedsb7N59wXfs="
+                sparkle:version="1.0.7+8"
                 sparkle:os="windows"
                 length="0"
                 type="application/octet-stream" />
