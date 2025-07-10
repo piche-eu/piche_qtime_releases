@@ -40,7 +40,7 @@
             <pubDate>Mon, 10 Jul 2025 00:00:00</pubDate>
             <!-- Here update url pointing to a new release, full version, dsaSignature and length from Windows output -->
             <enclosure
-                url="https://github.com/piche-eu/piche_qtime_releases/releases/download/1.0.5%2B6/QTimeInstaller.exe"
+                url="https://github.com/piche-eu/piche_qtime_releases/releases/download/1.0.7%2B8/QTimeInstaller.exe"
                 sparkle:dsaSignature="MDwCHDr2lOxUJSlrLhT6nan+gJ/QoZf0hO7f++juqkwCHEtgOJYhQl7XjUQYHnDgGM1EZZVedsb7N59wXfs="
                 sparkle:version="1.0.7+8"
                 sparkle:os="windows"
