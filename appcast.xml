@@ -5,44 +5,78 @@
         <description>Most recent updates to QTime</description>
         <language>en</language>
         <item>
-            <title>Version 1.0.7+8</title>
+            <title>Version 1.0.8+9</title>
             <!-- sparkle:version is for build number, where sparkle:shortVersionString is
             responsible for build name -->
-            <sparkle:version>8</sparkle:version>
-            <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>1.0.8</sparkle:shortVersionString>
             <description><![CDATA[
-                <h1>Release Notes - 1.0.7+8</h1>
+                h2>Technical Highlights</h2>
+    
+                <h3>Performance Improvements</h3>
                 <ul>
-                    <li>Added contacts page with sorting and filtering</li>
-                    <li>Miltiple improvements to Windows version, focusing on stability</li>
-                    <li>Auto update functionality for all platforms</li>
+                    <li>Implemented request caching system for faster data retrieval</li>
+                    <li>Optimized daily activity tracking and storage</li>
+                    <li>Enhanced data synchronization between local and server storage</li>
+                </ul>
+    
+                <h3>User Experience Enhancements</h3>
+                <ul>
+                    <li>Video-like screenshot playback with timeline controls</li>
+                    <li>Improved dashboard with online/offline status indicators</li>
+                    <li>Enhanced contacts management with sorting and filtering</li>
+                    <li>Streamlined main menu interface</li>
+                </ul>
+    
+                <h3>System Reliability</h3>
+                <ul>
+                    <li>Fixed critical updater issues preventing proper version management</li>
+                    <li>Resolved domain detection problems in browser tracking</li>
+                    <li>Improved function binding for manager applications</li>
                 </ul>
             ]]></description>
-            <pubDate>Mon, 16 Jun 2025 15:14:00 +0800</pubDate>
+            <pubDate>Mon, 14 Jul 2025 15:38:00</pubDate>
             <!-- Here update url pointing to a new release, edSignature and length from MacOS output -->
             <enclosure
-                url="https://github.com/piche-eu/piche_qtime_releases/releases/download/1.0.7%2B8/QTime_1.0.7+8.zip"
-                sparkle:edSignature="iYMAHVaE8Q8xB76lnHxlC57UxOZWJjrvZqOXasAfXy08xUCHhnxtqJ1l7hRN6tf5wRUVpn0kII5NLu23gkp3CA=="
+                url="https://github.com/piche-eu/piche_qtime_releases/releases/download/1.0.8%2B9/QTime_1.0.8+9.zip"
+                sparkle:edSignature="6OJlPxUlQkdvNSj8uCrlKRSXqXuZ1cu54GRfamnC2xAGga+WQnEq/yXpLJBU96Dgp0Q45/VwGSKKO2smrdnyDw=="
                 sparkle:os="macos"
-                length="27652267"
+                length="27966600"
                 type="application/octet-stream" />
         </item>
         <item>
-            <title>Version 1.0.7+8</title>
-            <description><![CDATA[
-                <h1>Release Notes - 1.0.7+8</h1>
+            <title>Version 1.0.8+9</title>
+            <<description><![CDATA[
+                h2>Technical Highlights</h2>
+    
+                <h3>Performance Improvements</h3>
                 <ul>
-                    <li>Added contacts page with sorting and filtering</li>
-                    <li>Miltiple improvements to Windows version, focusing on stability</li>
-                    <li>Auto update functionality for all platforms</li>
+                    <li>Implemented request caching system for faster data retrieval</li>
+                    <li>Optimized daily activity tracking and storage</li>
+                    <li>Enhanced data synchronization between local and server storage</li>
+                </ul>
+    
+                <h3>User Experience Enhancements</h3>
+                <ul>
+                    <li>Video-like screenshot playback with timeline controls</li>
+                    <li>Improved dashboard with online/offline status indicators</li>
+                    <li>Enhanced contacts management with sorting and filtering</li>
+                    <li>Streamlined main menu interface</li>
+                </ul>
+    
+                <h3>System Reliability</h3>
+                <ul>
+                    <li>Fixed critical updater issues preventing proper version management</li>
+                    <li>Resolved domain detection problems in browser tracking</li>
+                    <li>Improved function binding for manager applications</li>
                 </ul>
             ]]></description>
-            <pubDate>Mon, 10 Jul 2025 00:00:00</pubDate>
+            <pubDate>Mon, 14 Jul 2025 15:38:00</pubDate>
             <!-- Here update url pointing to a new release, full version, dsaSignature and length from Windows output -->
             <enclosure
-                url="https://github.com/piche-eu/piche_qtime_releases/releases/download/1.0.7%2B8/QTimeInstaller.exe"
-                sparkle:dsaSignature="MDwCHDr2lOxUJSlrLhT6nan+gJ/QoZf0hO7f++juqkwCHEtgOJYhQl7XjUQYHnDgGM1EZZVedsb7N59wXfs="
-                sparkle:version="1.0.7+8"
+                url="https://github.com/piche-eu/piche_qtime_releases/releases/download/1.0.8%2B9/QTimeInstaller.exe"
+                sparkle:dsaSignature="MD0CHQCAFDS4Blnr8/+n+9BA5wHiEkMQq8szrcNV0IzfAhw+9hcbADinPzJU3EtPKurhR7Lt1aVhSWl51upb"
+                sparkle:version="1.0.8+9"
                 sparkle:os="windows"
                 length="0"
                 type="application/octet-stream" />
