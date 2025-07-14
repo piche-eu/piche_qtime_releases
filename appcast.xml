@@ -11,7 +11,7 @@
             <sparkle:version>9</sparkle:version>
             <sparkle:shortVersionString>1.0.8</sparkle:shortVersionString>
             <description><![CDATA[
-                h2>Technical Highlights</h2>
+                <h2>Technical Highlights</h2>
     
                 <h3>Performance Improvements</h3>
                 <ul>
@@ -47,7 +47,7 @@
         <item>
             <title>Version 1.0.8+9</title>
             <<description><![CDATA[
-                h2>Technical Highlights</h2>
+                <h2>Technical Highlights</h2>
     
                 <h3>Performance Improvements</h3>
                 <ul>
