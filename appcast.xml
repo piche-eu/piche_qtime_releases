@@ -5,53 +5,80 @@
         <description>Most recent updates to QTime</description>
         <language>en</language>
         <item>
-            <title>Version 1.0.8+9</title>
+            <title>Version 1.0.9+10</title>
             <!-- sparkle:version is for build number, where sparkle:shortVersionString is
             responsible for build name -->
-            <sparkle:version>9</sparkle:version>
-            <sparkle:shortVersionString>1.0.8</sparkle:shortVersionString>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>1.0.9</sparkle:shortVersionString>
             <description><![CDATA[
-                <h2>Technical Highlights</h2>
-    
-                <h3>Performance Improvements</h3>
+                <h1>Release Notes - 1.0.9+10</h1>
+
+                <div class="warning">
+                    <strong>WARNING:</strong> If you are a Windows user, you will need to reinstall the application completely due to changes in the installer.
+                    <a href="https://wiki.piche.it/doc/windows-RHHDusDUb0">Access wiki for further instructions.</a>
+                </div>
+
+                <h2>Features:</h2>
                 <ul>
-                    <li>Implemented request caching system for faster data retrieval</li>
-                    <li>Optimized daily activity tracking and storage</li>
-                    <li>Enhanced data synchronization between local and server storage</li>
+                    <li>Added statistics screen to view, analyse and compare productivity for different users. Accessible by managers and admins. Supports sorting, filtering and time ranges selection.</li>
+                    <li>Added «Go To Today» button to quickly return to today.</li>
+                    <li>Added view controls for screenshots playback and improved overall visuals.</li>
+                    <li>Improved Windows installer to no longer require admin rights</li>
+                    <li>Added manual update check into settings.</li>
+                    <li>Support for offline mode in case of poor connection.</li>
                 </ul>
-    
-                <h3>User Experience Enhancements</h3>
+
+                <h2>Fixes:</h2>
                 <ul>
-                    <li>Video-like screenshot playback with timeline controls</li>
-                    <li>Improved dashboard with online/offline status indicators</li>
-                    <li>Enhanced contacts management with sorting and filtering</li>
-                    <li>Streamlined main menu interface</li>
-                </ul>
-    
-                <h3>System Reliability</h3>
-                <ul>
-                    <li>Fixed critical updater issues preventing proper version management</li>
-                    <li>Resolved domain detection problems in browser tracking</li>
-                    <li>Improved function binding for manager applications</li>
+                    <li>Fixed the issue with freezing mouse and keyboard during screenshot capture.</li>
+                    <li>Fixed application dropping to sign-in page during system start.</li>
+                    <li>Fixed application not opening from dock on MacOS.</li>
+                    <li>Fixed visual issues related to date ranges.</li>
                 </ul>
             ]]></description>
-            <pubDate>Mon, 14 Jul 2025 15:38:00</pubDate>
+            <pubDate>Mon, 28 Jul 2025 18:00:00</pubDate>
             <!-- Here update url pointing to a new release, edSignature and length from MacOS output -->
             <enclosure
-                url="https://github.com/piche-eu/piche_qtime_releases/releases/download/1.0.8%2B9/QTime_1.0.8+9.zip"
-                sparkle:edSignature="6OJlPxUlQkdvNSj8uCrlKRSXqXuZ1cu54GRfamnC2xAGga+WQnEq/yXpLJBU96Dgp0Q45/VwGSKKO2smrdnyDw=="
+                url="https://github.com/piche-eu/piche_qtime_releases/releases/download/1.0.9%2B10/QTime.1.0.9+10.zip"
+                sparkle:edSignature="ADesjrZXyKaunkONIvttaEYpyYe3MFy6klSVUrN0Da1lRigMS59lyqYJCFS7Vy6edL4SqvB8iLjcqj8fLhmVBQ=="
                 sparkle:os="macos"
-                length="27966600"
+                length="27952295"
                 type="application/octet-stream" />
         </item>
         <item>
-            <title>Version 1.0.7+8</title>
-            <pubDate>Mon, 17 Jul 2025 10:00:00</pubDate>
+            <title>Version 1.0.9+10</title>
+            <description><![CDATA[
+                <h1>Release Notes - 1.0.9+10</h1>
+
+                <div class="warning">
+                    <strong>WARNING:</strong> If you are a Windows user, you will need to reinstall the application completely due to changes in the installer.
+                    <a href="https://wiki.piche.it/doc/windows-RHHDusDUb0">Access wiki for further instructions.</a>
+                </div>
+
+                <h2>Features:</h2>
+                <ul>
+                    <li>Added statistics screen to view, analyse and compare productivity for different users. Accessible by managers and admins. Supports sorting, filtering and time ranges selection.</li>
+                    <li>Added «Go To Today» button to quickly return to today.</li>
+                    <li>Added view controls for screenshots playback and improved overall visuals.</li>
+                    <li>Improved Windows installer to no longer require admin rights</li>
+                    <li>Added manual update check into settings.</li>
+                    <li>Support for offline mode in case of poor connection.</li>
+                </ul>
+
+                <h2>Fixes:</h2>
+                <ul>
+                    <li>Fixed the issue with freezing mouse and keyboard during screenshot capture.</li>
+                    <li>Fixed application dropping to sign-in page during system start.</li>
+                    <li>Fixed application not opening from dock on MacOS.</li>
+                    <li>Fixed visual issues related to date ranges.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Mon, 28 Jul 2025 18:00:00</pubDate>
             <!-- Here update url pointing to a new release, full version, dsaSignature and length from Windows output -->
             <enclosure
-                url="https://github.com/piche-eu/piche_qtime_releases/releases/download/1.0.7%2B8/QTimeInstaller.exe"
-                sparkle:dsaSignature="MD0CHQCAFDS4Blnr8/+n+9BA5wHiEkMQq8szrcNV0IzfAhw+9hcbADinPzJU3EtPKurhR7Lt1aVhSWl51upb"
-                sparkle:version="1.0.7+8"
+                url="https://github.com/piche-eu/piche_qtime_releases/releases/download/1.0.9%2B10/QTimeInstaller.exe"
+                sparkle:dsaSignature="MDwCHGcVF4HL/Lnah4CWIcG4+P6BF4He21hTIJgyoV0CHHTXS6orHFigQMffqOXbmiGwqPkIeAyuikVRQJk="
+                sparkle:version="1.0.9+10"
                 sparkle:os="windows"
                 length="0"
                 type="application/octet-stream" />
