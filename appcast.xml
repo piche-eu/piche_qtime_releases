@@ -27,20 +27,20 @@
                 type="application/octet-stream" />
         </item>
         <item>
-            <title>Version 1.0.10+11</title>
+            <title>Version 1.0.11+12</title>
             <description><![CDATA[
-                <h1>Release Notes - 1.0.10+11</h1>
+                <h1>Release Notes - 1.0.11+12</h1>
 
                 <div>
-                    Multiple bugfixes regarding statistics, activities and general stability.
+                    Hotfix release, addressing issue with screenshots not showing if user have multiple monitors.
                 </div>
             ]]></description>
-            <pubDate>Mon, 31 Jul 2025 10:00:00</pubDate>
+            <pubDate>Mon, 1 Aug 2025 10:00:00</pubDate>
             <!-- Here update url pointing to a new release, full version, dsaSignature and length from Windows output -->
             <enclosure
-                url="https://github.com/piche-eu/piche_qtime_releases/releases/download/1.0.10%2B11/QTimeInstaller.exe"
-                sparkle:dsaSignature="MDwCHHfrRrao7EL75W563Mv6Tl+pYichN6Ekrctq3PICHG5oVyZ5u2q9FXwMFMfCmNHwZHAqWVNTGv2OCqs="
-                sparkle:version="1.0.10+11"
+                url="https://github.com/piche-eu/piche_qtime_releases/releases/download/1.0.11%2B12/QTimeInstaller.exe"
+                sparkle:dsaSignature="MDwCHG7k0IDHX3ZjKmdyIT86sQkEpE3jU1DH0x9zgTMCHCSsNFziB+hIlx9CyNLi971isaAyIsQoQ26ge3s="
+                sparkle:version="1.0.11+12"
                 sparkle:os="windows"
                 length="0"
                 type="application/octet-stream" />
