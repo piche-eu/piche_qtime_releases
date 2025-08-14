@@ -5,42 +5,62 @@
         <description>Most recent updates to QTime</description>
         <language>en</language>
         <item>
-            <title>Version 1.0.10+11</title>
+            <title>Version 1.0.12+13</title>
             <!-- sparkle:version is for build number, where sparkle:shortVersionString is
             responsible for build name -->
-            <sparkle:version>11</sparkle:version>
-            <sparkle:shortVersionString>1.0.10</sparkle:shortVersionString>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>1.0.12</sparkle:shortVersionString>
             <description><![CDATA[
-                <h1>Release Notes - 1.0.10+11</h1>
+                <h1>Release notes - 1.0.12+13</h1>
 
-                <div>
-                    Multiple bugfixes regarding statistics, activities and general stability.
-                </div>
+                <h2>Features:</h2>
+                <ul>
+                    <li>Added floating button at the statistics screen to export data table as a CSV file, while preserving format, amount of rows and columns and sorting order.</li>
+                    <li>Added possibility to pause tracking activity for a set period of time.</li>
+                </ul>
+
+                <h2>Fixes:</h2>
+                <ul>
+                    <li>Fixed issue with "Work time" and "Desk time" not calculating correctly.</li>
+                    <li>Fixed issue with statistics showing incorrect or no data at all.</li>
+                    <li>Fixed multiple issues with applications not having correct names or not showing even with activity being present.</li>
+                    <li>Fixed issue with productive time showing over 100% productivity.</li>
+                </ul>
             ]]></description>
-            <pubDate>Mon, 31 Jul 2025 18:00:00</pubDate>
+            <pubDate>Wen, 14 Aug 2025 10:00:00</pubDate>
             <!-- Here update url pointing to a new release, edSignature and length from MacOS output -->
             <enclosure
-                url="https://github.com/piche-eu/piche_qtime_releases/releases/download/1.0.10%2B11/QTime.1.0.10+11-prod.zip"
-                sparkle:edSignature="h821Ss17WPxOflXL0sYfE44U1wXyg7LVwNrU4F1Jq7V4N7k+EPBykuklwDVYgLdi2uN4ZylEX6Xbo30uu1NjAg=="
+                url="https://github.com/piche-eu/piche_qtime_releases/releases/download/1.0.12%2B13/QTime_1.0.12+13-prod.zip"
+                sparkle:edSignature="VUPUnSLjvr+7ruVZwezoPbVFgd8TtHSqSjgK19v6jqBl6/Mq4xN4EUEdk6T8SIwWMm3UFlx7KMEYnyLi300rAg=="
                 sparkle:os="macos"
-                length="27950186"
+                length="27996445"
                 type="application/octet-stream" />
         </item>
         <item>
-            <title>Version 1.0.11+12</title>
+            <title>Version 1.0.12+13</title>
             <description><![CDATA[
-                <h1>Release Notes - 1.0.11+12</h1>
+                <h1>Release notes - 1.0.12+13</h1>
 
-                <div>
-                    Hotfix release, addressing issue with screenshots not showing if user have multiple monitors.
-                </div>
+                <h2>Features:</h2>
+                <ul>
+                    <li>Added floating button at the statistics screen to export data table as a CSV file, while preserving format, amount of rows and columns and sorting order.</li>
+                    <li>Added possibility to pause tracking activity for a set period of time.</li>
+                </ul>
+
+                <h2>Fixes:</h2>
+                <ul>
+                    <li>Fixed issue with "Work time" and "Desk time" not calculating correctly.</li>
+                    <li>Fixed issue with statistics showing incorrect or no data at all.</li>
+                    <li>Fixed multiple issues with applications not having correct names or not showing even with activity being present.</li>
+                    <li>Fixed issue with productive time showing over 100% productivity.</li>
+                </ul>
             ]]></description>
-            <pubDate>Mon, 1 Aug 2025 10:00:00</pubDate>
+            <pubDate>Wen, 14 Aug 2025 10:00:00</pubDate>
             <!-- Here update url pointing to a new release, full version, dsaSignature and length from Windows output -->
             <enclosure
-                url="https://github.com/piche-eu/piche_qtime_releases/releases/download/1.0.11%2B12/QTimeInstaller.exe"
-                sparkle:dsaSignature="MDwCHG7k0IDHX3ZjKmdyIT86sQkEpE3jU1DH0x9zgTMCHCSsNFziB+hIlx9CyNLi971isaAyIsQoQ26ge3s="
-                sparkle:version="1.0.11+12"
+                url="https://github.com/piche-eu/piche_qtime_releases/releases/download/1.0.12%2B13/QTimeInstaller.exe"
+                sparkle:dsaSignature="MDwCHEF8Av+B4SRXs+kiB15FmeUy3QUcZ/ibXOS4R0wCHFFi16wc/iTGCPw55yu0jvacBp9sbqYJhOQkvHc="
+                sparkle:version="1.0.12+13"
                 sparkle:os="windows"
                 length="0"
                 type="application/octet-stream" />
