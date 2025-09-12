@@ -5,67 +5,56 @@
         <description>Most recent updates to QTime</description>
         <language>en</language>
         <item>
-            <title>Version 1.0.12+13</title>
+            <title>Version 1.0.19+20</title>
             <!-- sparkle:version is for build number, where sparkle:shortVersionString is
             responsible for build name -->
-            <sparkle:version>13</sparkle:version>
-            <sparkle:shortVersionString>1.0.12</sparkle:shortVersionString>
+            <sparkle:version>20</sparkle:version>
+            <sparkle:shortVersionString>1.0.19</sparkle:shortVersionString>
             <description><![CDATA[
-                <h1>Release notes - 1.0.12+13</h1>
+                <h1>Release notes - 1.0.19+20</h1>
 
                 <h2>Features:</h2>
                 <ul>
-                    <li>Added floating button at the statistics screen to export data table as a CSV file, while preserving format, amount of rows and columns and sorting order.</li>
-                    <li>Added possibility to pause tracking activity for a set period of time.</li>
+                    <li>MacOS tracking - complete with the same functionality as on Windows (except website tracking).</li>
                 </ul>
 
                 <h2>Fixes:</h2>
                 <ul>
-                    <li>Fixed issue with "Work time" and "Desk time" not calculating correctly.</li>
-                    <li>Fixed issue with statistics showing incorrect or no data at all.</li>
-                    <li>Fixed multiple issues with applications not having correct names or not showing even with activity being present.</li>
-                    <li>Fixed issue with productive time showing over 100% productivity.</li>
+                    <li>Fixed the incorrect screenshot file extension on export.</li>
+                    <li>Added name to each exported screenshot.</li>
                 </ul>
             ]]></description>
-            <pubDate>Wen, 14 Aug 2025 10:00:00</pubDate>
+            <pubDate>Fri, 12 Sept 2025 10:00:00</pubDate>
             <!-- Here update url pointing to a new release, edSignature and length from MacOS output -->
             <enclosure
-                url="https://github.com/piche-eu/piche_qtime_releases/releases/download/1.0.12%2B13/QTime_1.0.12+13-prod.zip"
-                sparkle:edSignature="VUPUnSLjvr+7ruVZwezoPbVFgd8TtHSqSjgK19v6jqBl6/Mq4xN4EUEdk6T8SIwWMm3UFlx7KMEYnyLi300rAg=="
+                url="https://github.com/piche-eu/piche_qtime_releases/releases/download/1.0.19%2B20/QTime_1.0.19+20.zip"
+                sparkle:edSignature="zD7J7sbwJXFGcqULA9jFRG8NlZHMvXJhsN/hZccw2cyaLtKwClHx9dVMVV0Ea2wih0Xa3OptMZXCtc6W5P++AQ=="
                 sparkle:os="macos"
-                length="27996445"
+                length="26380280"
                 type="application/octet-stream" />
         </item>
         <item>
-            <title>Version 1.0.15+16</title>
+            <title>Version 1.0.19+20</title>
             <description><![CDATA[
-                <h1>Release notes - 1.0.15+16</h1>
+                <h1>Release notes - 1.0.19+20</h1>
 
                 <h2>Features:</h2>
                 <ul>
-                    <li>Added possibility to download screenshots in bulk.</li>
-                    <li>Added zoom in/out on tap in screenshots playback.</li>
-                    <li>Updated tray menu to include starting/stopping/pausing activity.</li>
-                    <li>Now silent uninstall deletes user data.</li>
-                    <li>Added button in settings to export logs.</li>
-                    <li>Now Windows installer checks, if additional libraries are already installed.</li>
+                    <li>MacOS tracking - complete with the same functionality as on Windows (except website tracking).</li>
                 </ul>
 
                 <h2>Fixes:</h2>
                 <ul>
-                    <li>Fixed departments not honoring user rights when filtering.</li>
-                    <li>Fixed CTD on Windows when no shared preferences were set.</li>
-                    <li>Fixed the issue with today screenshots not being updated correctly.</li>
-                    <li>Fixed applications names not being displayed correctly or not being tracked at all.</li>
-                    <li>Fixed the issue of QTime occasionally crashing and stopping tracking.</li>
+                    <li>Fixed the incorrect screenshot file extension on export.</li>
+                    <li>Added name to each exported screenshot.</li>
                 </ul>
             ]]></description>
-            <pubDate>Fri, 22 Aug 2025 10:00:00</pubDate>
+            <pubDate>Fri, 12 Sept 2025 10:00:00</pubDate>
             <!-- Here update url pointing to a new release, full version, dsaSignature and length from Windows output -->
             <enclosure
-                url="https://github.com/piche-eu/piche_qtime_releases/releases/download/1.0.15%2B16/QTimeInstaller.exe"
-                sparkle:dsaSignature="MDsCHDGVx2qwY3yTGMNE5ZB0IwGiROU5HNVHSTLTSjUCG07I4A6FpS4+gel2cWKxSZiWJVXRt58lgqdk2Q=="
-                sparkle:version="1.0.15+16"
+                url="https://github.com/piche-eu/piche_qtime_releases/releases/download/1.0.19%2B20/QTimeInstaller.exe"
+                sparkle:dsaSignature="MDwCHFV1T8S/jYCznmc/h41lrhqqjVTtd2E+Ei2sk+YCHEBgXRr28v5djfdeKUeQvWFV709HTyrQphfduxw="
+                sparkle:version="1.0.19+20"
                 sparkle:os="windows"
                 length="0"
                 type="application/octet-stream" />
