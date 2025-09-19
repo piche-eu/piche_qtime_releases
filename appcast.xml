@@ -34,27 +34,22 @@
                 type="application/octet-stream" />
         </item>
         <item>
-            <title>Version 1.0.19+20</title>
+            <title>Version 1.0.21+22</title>
             <description><![CDATA[
-                <h1>Release notes - 1.0.19+20</h1>
-
-                <h2>Features:</h2>
-                <ul>
-                    <li>MacOS tracking - complete with the same functionality as on Windows (except website tracking).</li>
-                </ul>
-
+                <h1>Release notes - 1.0.21+22</h1>
+                
                 <h2>Fixes:</h2>
                 <ul>
-                    <li>Fixed the incorrect screenshot file extension on export.</li>
-                    <li>Added name to each exported screenshot.</li>
+                    <li>Fixed filters in contacts returning different amount of users.</li>
+                    <li>Fixed incorrect tracking / crashes after system wake from sleep.</li>
                 </ul>
             ]]></description>
-            <pubDate>Fri, 12 Sept 2025 10:00:00</pubDate>
+            <pubDate>Fri, 19 Sept 2025 10:00:00</pubDate>
             <!-- Here update url pointing to a new release, full version, dsaSignature and length from Windows output -->
             <enclosure
-                url="https://github.com/piche-eu/piche_qtime_releases/releases/download/1.0.19%2B20/QTimeInstaller.exe"
-                sparkle:dsaSignature="MDwCHFV1T8S/jYCznmc/h41lrhqqjVTtd2E+Ei2sk+YCHEBgXRr28v5djfdeKUeQvWFV709HTyrQphfduxw="
-                sparkle:version="1.0.19+20"
+                url="https://github.com/piche-eu/piche_qtime_releases/releases/download/1.0.21%2B22/QTimeInstaller.exe"
+                sparkle:dsaSignature="MDwCHCe7xCFQVtcrQbBEzdGU148CGh9nPCsXuWNokSkCHDwcsFHxhQJBgId58UsHmNuiRRXnyWaBIpA95SE="
+                sparkle:version="1.0.21+22"
                 sparkle:os="windows"
                 length="0"
                 type="application/octet-stream" />
