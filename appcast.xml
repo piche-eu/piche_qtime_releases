@@ -34,22 +34,30 @@
                 type="application/octet-stream" />
         </item>
         <item>
-            <title>Version 1.0.21+22</title>
+            <title>Version 1.0.22+23</title>
             <description><![CDATA[
-                <h1>Release notes - 1.0.21+22</h1>
-                
+                <h1>Release notes - 1.0.22+23</h1>
+
+                <h2>Features:</h2>
+                <ul>
+                    <li>Added pause menu to the dashboard alongside updated tooltips..</li>
+                    <li>Updated behavior of browser tracking for Windows, improved stability.</li>
+                </ul>
+
                 <h2>Fixes:</h2>
                 <ul>
-                    <li>Fixed filters in contacts returning different amount of users.</li>
-                    <li>Fixed incorrect tracking / crashes after system wake from sleep.</li>
+                    <li>Now activity no longer bound by fragments size. This should remove overflows.</li>
+                    <li>Fixed "No activities" being shown first before actual data loads.</li>
+                    <li>Fixed cache tile changing size in settings page.</li>
+                    <li>Fixed statistics not showing last day in week/month views.</li>
                 </ul>
             ]]></description>
-            <pubDate>Fri, 19 Sept 2025 10:00:00</pubDate>
+            <pubDate>Fri, 3 Oct 2025 10:00:00</pubDate>
             <!-- Here update url pointing to a new release, full version, dsaSignature and length from Windows output -->
             <enclosure
-                url="https://github.com/piche-eu/piche_qtime_releases/releases/download/1.0.21%2B22/QTimeInstaller.exe"
-                sparkle:dsaSignature="MDwCHCe7xCFQVtcrQbBEzdGU148CGh9nPCsXuWNokSkCHDwcsFHxhQJBgId58UsHmNuiRRXnyWaBIpA95SE="
-                sparkle:version="1.0.21+22"
+                url="https://github.com/piche-eu/piche_qtime_releases/releases/download/1.0.22%2B23/QTimeInstaller.exe"
+                sparkle:dsaSignature="MDwCHB3N88JcXkhzXhCe5YBRW6C06hD9KVcD4ZOkp24CHDYxQq9eurwgDGJyj3hmB3KcfyXgBJpTpBJ7EzQ="
+                sparkle:version="1.0.22+23"
                 sparkle:os="windows"
                 length="0"
                 type="application/octet-stream" />
