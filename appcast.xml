@@ -47,7 +47,7 @@
             <!-- Here update url pointing to a new release, full version, dsaSignature and length from Windows output -->
             <enclosure
                 url="https://github.com/piche-eu/piche_qtime_releases/releases/download/1.0.24%2B25/QTimeInstaller.exe"
-                sparkle:dsaSignature="MDwCHC4ralTaViVStek3G5ddPfGZtbgWyw7TqFYlY5ICHC5GltIGaXMS+KsBLhtntVCBGO4yn6zSewClhnc=
+                sparkle:dsaSignature="MDwCHC4ralTaViVStek3G5ddPfGZtbgWyw7TqFYlY5ICHC5GltIGaXMS+KsBLhtntVCBGO4yn6zSewClhnc="
                 sparkle:version="1.0.24+25"
                 sparkle:os="windows"
                 length="0"
