@@ -34,27 +34,21 @@
                 type="application/octet-stream" />
         </item>
         <item>
-            <title>Version 1.0.23+24</title>
+            <title>Version 1.0.24+25</title>
             <description><![CDATA[
-                <h1>Release notes - 1.0.23+24</h1>
+                <h1>Release notes - 1.0.24+25</h1>
 
-                <h2>Features:</h2>
+                <h2>Hotfix:</h2>
                 <ul>
-                    <li>Added indicator for current active fragment.</li>
-                </ul>
-
-                <h2>Fixes:</h2>
-                <ul>
-                    <li>Fixed pause menu on dashboard being visible on other users' pages.</li>
-                    <li>Fixed data load delay on restart.</li>
+                    <li>Fixed activities not being captured on long, single app workflows</li>
                 </ul>
             ]]></description>
             <pubDate>Fri, 6 Oct 2025 10:00:00</pubDate>
             <!-- Here update url pointing to a new release, full version, dsaSignature and length from Windows output -->
             <enclosure
-                url="https://github.com/piche-eu/piche_qtime_releases/releases/download/1.0.23%2B24/QTimeInstaller.exe"
-                sparkle:dsaSignature="MDwCHHYIbLBy7yMX9OBGTFs82zwGoWtX6GR48kPG2fgCHFGOPlFPgHvwaTVOtJLlPTagz8R0numXXwpwRU8="
-                sparkle:version="1.0.23+24"
+                url="https://github.com/piche-eu/piche_qtime_releases/releases/download/1.0.24%2B25/QTimeInstaller.exe"
+                sparkle:dsaSignature="MDwCHC4ralTaViVStek3G5ddPfGZtbgWyw7TqFYlY5ICHC5GltIGaXMS+KsBLhtntVCBGO4yn6zSewClhnc=
+                sparkle:version="1.0.24+25"
                 sparkle:os="windows"
                 length="0"
                 type="application/octet-stream" />
