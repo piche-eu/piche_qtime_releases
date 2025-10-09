@@ -5,32 +5,26 @@
         <description>Most recent updates to QTime</description>
         <language>en</language>
         <item>
-            <title>Version 1.0.23+24</title>
+            <title>Version 1.0.24+25</title>
             <!-- sparkle:version is for build number, where sparkle:shortVersionString is
             responsible for build name -->
-            <sparkle:version>24</sparkle:version>
-            <sparkle:shortVersionString>1.0.23</sparkle:shortVersionString>
+            <sparkle:version>25</sparkle:version>
+            <sparkle:shortVersionString>1.0.24</sparkle:shortVersionString>
             <description><![CDATA[
-                <h1>Release notes - 1.0.23+24</h1>
+                <h1>Release notes - 1.0.24+25</h1>
 
-                <h2>Features:</h2>
+                <h2>Hotfix:</h2>
                 <ul>
-                    <li>Added indicator for current active fragment.</li>
-                </ul>
-
-                <h2>Fixes:</h2>
-                <ul>
-                    <li>Fixed pause menu on dashboard being visible on other users' pages.</li>
-                    <li>Fixed data load delay on restart.</li>
+                    <li>Fixed activities not being captured on long, single app workflows</li>
                 </ul>
             ]]></description>
             <pubDate>Fri, 6 Oct 2025 10:00:00</pubDate>
             <!-- Here update url pointing to a new release, edSignature and length from MacOS output -->
             <enclosure
-                url="https://github.com/piche-eu/piche_qtime_releases/releases/download/1.0.23%2B24/QTime_1.0.23+24.zip"
-                sparkle:edSignature="9515XLtEbpo0jFDIp/ZEM4FqqJxBNOKDVgg7GTpeYd2FOgD3EPhli91eUJbWof3ZKbVZdCxL1rDRduvGXtwjBQ=="
+                url="https://github.com/piche-eu/piche_qtime_releases/releases/download/1.0.24%2B25/QTime.1.0.24+25.zip"
+                sparkle:edSignature="uRbom9eYpViWb9YNj1TH55YKVy5SAZmrIJ6y1e8bQ79XxLmfzm1hF/LRP2kFZe4FcWsSnN6V0d4Eug8v21p4Ag=="
                 sparkle:os="macos"
-                length="26390360"
+                length="26666557"
                 type="application/octet-stream" />
         </item>
         <item>
